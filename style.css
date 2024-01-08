@@ -17,7 +17,7 @@ body {
 }
 
 .header .header_link {
-  font-family:"Fantasy", cursive;
+  font-family: "Fantasy", cursive;
 }
 
 @media (max-width:768px) {
@@ -44,16 +44,16 @@ body {
 
 #main_incompleted-tasks,
 #main_completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list, .main_block-name {
-  list-style:none;
+  list-style: none;
 }
 
 input,button {
-  outline:none;
+  outline: none;
 }
 
 button {
@@ -156,14 +156,14 @@ button.delete img:hover {
 
 /* Edit Task */
 .list input[type="text"] {
-  display:none
+  display: none
 }
 
 .main_incompleted-tasks_edit input[type="text"] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .main_incompleted-tasks_edit label {
-  display:none;
+  display: none;
 }
