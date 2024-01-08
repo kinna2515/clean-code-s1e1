@@ -35,7 +35,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-task_input {
@@ -135,7 +135,7 @@ input#new-task {
 }
 
 .list > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 button.delete img {
@@ -150,18 +150,18 @@ button.delete img:hover {
 
 /* Completed */
 #main_completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list input[type="text"] {
-  display: none
+  display: none;
 }
 
 .main_incompleted-tasks_edit input[type="text"] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .main_incompleted-tasks_edit label {
