@@ -20,7 +20,7 @@ body {
   font-family: "Fantasy", cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .header { 
     text-align: center;
   }
@@ -48,11 +48,13 @@ body {
   padding: 0px;
 }
 
-.list, .main_block-name {
+.list,
+.main_block-name {
   list-style: none;
 }
 
-input,button {
+input,
+button {
   outline: none;
 }
 
@@ -105,7 +107,7 @@ label[for="new-task"] {
   margin: 0 0 20px;
 }
 
-input#new-task {
+input #new-task {
   width: 318px;
 }
 
