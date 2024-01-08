@@ -4,24 +4,24 @@ body {
   color: #333;
   font-family: "Lato", sans-serif;
 }
-.todo-header {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.todo-header img {
+.header img {
   width: 100%;
 }
-.todo-header .todo-header_link {
+.header .header_link {
   font-family:"Fantasy", cursive;
 }
 
 @media (max-width:768px) {
-.todo-header { text-align: center;
+.header { text-align: center;
 }
 }
-.todo-main {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#todo-main_completed-tasks label {
+ul#main_completed-tasks label {
   text-decoration: line-through
   color: #888;
 }
@@ -138,11 +138,11 @@ ul li input[type="text"] {
   display:none
 }
 
-ul .todo-main_incompleted-tasks_edit input[type="text"] {
+ul .main_incompleted-tasks_edit input[type="text"] {
   display:inline-block;
   width:224px
 }
 
-ul .todo-main_incompleted-tasks_edit label {
+ul .main_incompleted-tasks_edit label {
   display:none;
 }
